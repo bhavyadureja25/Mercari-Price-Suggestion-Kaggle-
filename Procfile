@@ -1,2 +1,2 @@
-web: gunicorn application:server
-web: gunicorn application:server --timeout 600
+web: gunicorn model_deployment:server
+web: gunicorn model_deployment:server --timeout 600
