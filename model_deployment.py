@@ -288,7 +288,7 @@ if apply:
                 final_price = np.exp(predicted_price)
                 
                 st.text('')
-                st.write('Predicted Price is ${}'.format(final_price[0]))
+                st.write('Predicted Price is $ {}'.format(round(final_price[0],2)))
                 print(final_price[0])
                 
             else: st.write('Please enter shipping details')
