@@ -285,7 +285,7 @@ if apply:
                 predicted_price = ridge_regression_transformer.predict(final_tfidf_test_df)
 
                 # converting the price from log to normal 
-                final_predict = np.exp(predicted_price)
+                final_price = np.exp(predicted_price)
                 
                 st.text('')
                 st.write('Predicted Price is ${}'.format(final_price[0]))
