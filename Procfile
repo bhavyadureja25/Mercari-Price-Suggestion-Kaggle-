@@ -1,1 +1,1 @@
-worker: python model_deployment.py
+worker: sh setup.sh && streamlit run model_deployment.py
