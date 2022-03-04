@@ -4,3 +4,7 @@ numpy==1.21.5
 Flask==2.0.2
 Flask-Compress==1.10.1
 tqdm==4.63.0
+streamlit
+scipy==1.8.0
+re==3.10.2
+joblib
