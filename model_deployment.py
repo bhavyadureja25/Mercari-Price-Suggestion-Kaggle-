@@ -14,7 +14,7 @@ import string
 from nltk.stem.porter import PorterStemmer
 import nltk
 from nltk.corpus import stopwords
-from gensim.models import KeyedVectors
+# from gensim.models import KeyedVectors
 from scipy.sparse import vstack, hstack, csr_matrix
 import joblib
 
