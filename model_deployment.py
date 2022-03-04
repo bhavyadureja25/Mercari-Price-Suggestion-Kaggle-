@@ -291,13 +291,11 @@ if apply:
                 st.write('Predicted Price is $ {}'.format(round(final_price[0],2)))
                 print(final_price[0])
                 
-            else: st.write('Please enter shipping details')
-        else:st.write('Please enter Item condition')
-    else:st.write('Please enter Product Name')
+#             else: st.write('Please enter shipping details')
+#         else:st.write('Please enter Item condition')
+#     else:st.write('Please enter Product Name')
 else: 
     st.write('Please make sure all the information is filled before you click APPLY!!')
 
-if __name__=='__main__': 
-    main() 
 
 ########################################################################################
