@@ -21,14 +21,14 @@ import joblib
 ## to import all the raw materials for prediction 
 
 # Importing the exported pickle files
-transformer_main_cat = joblib.load(r"C:\Users\User\Downloads\uoh_scripts\sklearn_ohe1.pkl")
-transformer_sub_cat = joblib.load(r"C:\Users\User\Downloads\uoh_scripts\sklearn_ohe2.pkl")
-transformer_sub_sub_cat = joblib.load(r"C:\Users\User\Downloads\uoh_scripts\sklearn_ohe3.pkl")
-transformer_brandname = joblib.load(r"C:\Users\User\Downloads\uoh_scripts\sklearn_ohe4.pkl")
-tf_idf_vector_item_description = joblib.load(r"C:\Users\User\Downloads\uoh_scripts\tf_idf_vect_item_item_decsrp.pickle")
-tf_idf_vector_name = joblib.load(r"C:\Users\User\Downloads\uoh_scripts\tf_idf_vect_item_name.pickle")
-std_scalar = joblib.load(r"C:\Users\User\Downloads\uoh_scripts\standard_scaler_tfidf.pickle")
-ridge_regression_transformer = joblib.load(r"C:\Users\User\Downloads\uoh_scripts\ridge_model_tfidf.pkl")
+transformer_main_cat = joblib.load(r"sklearn_ohe1.pkl")
+transformer_sub_cat = joblib.load(r"sklearn_ohe2.pkl")
+transformer_sub_sub_cat = joblib.load(r"sklearn_ohe3.pkl")
+transformer_brandname = joblib.load(r"sklearn_ohe4.pkl")
+tf_idf_vector_item_description = joblib.load(r"tf_idf_vect_item_item_decsrp.pickle")
+tf_idf_vector_name = joblib.load(r"tf_idf_vect_item_name.pickle")
+std_scalar = joblib.load(r"standard_scaler_tfidf.pickle")
+ridge_regression_transformer = joblib.load(r"ridge_model_tfidf.pkl")
 
 
 def featurization(df):
