@@ -220,7 +220,6 @@ def input_clean_func(input_df):
 # 5. shipping - dropdown 
 # 6. item description - text box 
 
-
 ## APP LAYOUT
 # Heading and Sub-headings
 st.title('MERCARI PRICE SUGGESTION')
@@ -295,6 +294,10 @@ if apply:
             else: st.write('Please enter shipping details')
         else:st.write('Please enter Item condition')
     else:st.write('Please enter Product Name')
-else: st.write('Please make sure all the information is filled before you click APPLY!!')        
+else: 
+    st.write('Please make sure all the information is filled before you click APPLY!!')
+
+if __name__=='__main__': 
+    main() 
 
 ########################################################################################
